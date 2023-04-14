@@ -536,8 +536,6 @@ The data is consist of ROLE and CONTENT."
         (chatgpt-input-mode)
         (setq chatgpt-input-instance instance)
         (erase-buffer)
-        (insert "Type response here...")
-        (call-interactively #'set-mark-command)
         (goto-char (point-min))))  ; waiting for deletion
     (pop-to-buffer buffer `((display-buffer-in-direction)
                             (direction . ,dir)
