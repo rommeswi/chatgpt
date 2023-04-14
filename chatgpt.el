@@ -576,7 +576,7 @@ The data is consist of ROLE and CONTENT."
     map)
   "Keymap for `chatgpt-mode'.")
 
-(define-derived-mode chatgpt-input-mode fundamental-mode "ChatGPT Input"
+(define-derived-mode chatgpt-input-mode text-mode "ChatGPT Input"
   "Major mode for `chatgpt-input-mode'.
 
 \\<chatgpt-input-mode-map>"
